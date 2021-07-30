@@ -26,7 +26,7 @@ xhttp.onload  = function() {
         return 0;
       }      
 
-    for(var i = 0; i < 1; i++){
+    for(var i = 0; i < pistas.length; i++){
         var pista = pistas[i];
         if(pista.tvShortName != ""){
             var corridasDaPista = pistas[i].races;
